@@ -1,28 +1,25 @@
-<!DOCTYPE html>
-</html>
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
 
-<head>
-    <meta charsat="UTF-8">
-    <meta name="viewport" conyent="width=device-width, initial-scale=1.0">
-    <title>aluraBooks</title>
-    <link rel="stylesheet" href="reset.css"> 
-    <link rel="stylesheet" href="style.css">
-</head>
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --laranja: #EB9B00;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #002F52;
+    --fonte-secundario: "josefin sans";
+    --Preto: #000000;
+}
 
-<body>
-     <div class="cabeçalho">
-     <class="container">
-        <span class="cabeçalho__menu-hamburguer container_imagem"></span>
-        <img src="img/logo.svg" alt="logo da alurabooks" class="container_imagem">
-     </div>
-     <div class="container">   
-        <a href="#"><img src="img/favoritos.svg" alt="Meus favoritos" class="container_imagem"></a>
-        <a href="#"><img src="img/compras.svg" alt="carrinho de compras" class="container_imagem"></a>
-        <a href="#"><img src="img/usuario.svg" alt="meu perfil" class="container_imagem"></a>
-     </div> 
-    </header>
-</body>
-
-</html><!DOCTYPE html>
-</html>
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 180;
+}
 
