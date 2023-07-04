@@ -6,7 +6,6 @@
     display:inline-block;
 }
 
-
 .cabeçalho{
     background-color: :var(--branco);
     display: flex;
@@ -24,11 +23,30 @@
     padding: 1em;
 }
 
+
 .lista-menu {
     display: none;
     position:absolute;
+    top:100%;
 }
 
 .container_botao:checked ~ .lista-menu{
     display:block/;
+}
+
+.lista-menu__titulo,
+.lista-menu__itenm{
+    padding: 1em;
+    background-color: var(--branco);
+}
+
+.lista-menu__titulo{
+    color: var(--laranja);
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-background-clip: transparent;
+    background-clip: text;
 }
