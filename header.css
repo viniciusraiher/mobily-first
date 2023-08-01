@@ -31,17 +31,18 @@
 }
 
 .container_botao:checked ~ .lista-menu{
-    display:block/;
+    display:block;
 }
 
 .lista-menu__titulo,
-.lista-menu__itenm{
+.lista-menu__item{
     padding: 1em;
     background-color: var(--branco);
 }
 
 .lista-menu__titulo{
     color: var(--laranja);
+    font-weight: 700;
 }
 
 .lista-menu__link{
@@ -49,4 +50,10 @@
     -webkit-background-clip: text;
     -webkit-background-clip: transparent;
     background-clip: text;
+    text-transform:uppercase;
 }
+
+.container__botao{
+    display: none;
+}
+
